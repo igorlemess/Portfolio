@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/bulma.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/hover.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" type="imagem/png" href="../img/logoigor.png" />
+    <script src="../script/script.js"></script>
+    <title>Sobre</title>
+</head>
+
+<body>
+    <header>
+            <nav class="navbar is-transparent">
+                <div class="navbar-brand">
+                    <img src="../img/logoigor.png" width="30%">
+                </div>
+                <div class="navbar-end">
+                    <a class="navbar-item" href="../index.html">Inicio</a>
+                    <a class="navbar-item atual" href="sobre.html">Sobre</a>
+                    <a class="navbar-item" href="projetos.html">Projetos</a>
+                </div>
+            </nav>
+    </header>
+
+    <div class="hero">
+        <figure class="hero-body">
+            <div class="eu">
+                <h1 class="fadeIn">Desenvolvedor Full Stack</h1>
+            </div>
+        </figure>
+    </div>
+
+    <main>
+        <div class="sobre">
+            <section class="container"> 
+                <div class="informacoes columns">
+                    <div class="pesq column">           
+                            <div class="column  perfil">
+                                <figure class="card-image is-4by3">
+                                    <img src="../img/pp.jpg" class="profile is-rounded">
+                                </figure>
+
+                                <p class="is-centered azul">Igor Ramos Lemes</p>
+                                <br>
+                            </div>
+                            <div class="columns opcoes">
+                                <div class="column opcao" id="op1" onload="fundo(this.id)" onclick="fundo(this.id)">
+                                    <p>Sobre mim</p>
+                                </div>
+                                <div class="column opcao" id="op2" onclick="fundo(this.id)">
+                                    <p>Escolaridade</p>
+                                </div>
+                            </div>
+
+                        
+                    </div>
+
+                    <div class="pconteudo columns column is-two-thirds" id="apresentacao">
+                        
+                        <div id="titulo">
+                        </div>
+
+                        <div id="info">
+                            <p>FATEC Sorocaba</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="competencias">
+            <section class="container">
+
+                    <figure>
+                        <div class="columns">
+                            <div class="column hvr-grow">
+                                <p>JavaScript</p>
+                                <img class="" src="../img/logojs.png" width="100%">
+                            </div>
+
+                            <div class="column hvr-grow">
+                                <p>HTML5</p>
+                                <img class="" src="../img/logohtml.png" width="100%">
+                            </div>
+
+                            <div class="column hvr-grow">
+                                <p>CSS</p>
+                                <img class="" src="../img/logocss.png" width="100%">
+                            </div>
+                        </div>
+
+                        <div class="columns">
+                            <div class="column hvr-grow">
+                                <p>Oracle DB</p>
+                                <img class="" src="../img/logooracledb.png" width="100%">
+                            </div>
+
+                            <div class="column hvr-grow">
+                                <p>Linguagem C</p>
+                                <img class="" src="../img/logoc.png" width="100%">
+                            </div>
+                   
+                            <div class="column hvr-grow">
+                                <p>Java</p>
+                                <img class="" src="../img/logojava.png" width="100%">
+                            </div>
+                        </div>
+                    </figure>
+
+            </section>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p class="azul">Entre em contato</p>
+        <a href="https://github.com/igorlemess"><span class="icon"><i class="fa-brands fa-github"></span></i>igorlemess</a>
+        <a href="https://www.linkedin.com/in/igor-lemess/"><span class="icon"><i class="fa-brands fa-linkedin"></span></i>Igor Lemes</a>
+        <a href="mailto:igorramosirl11@gmail.com"><span class="icon"><i class="fa fa-envelope"></span></i>igorramosirl11@gmail.com</a>
+    </footer>
+</body>
