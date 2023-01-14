@@ -5,3 +5,5 @@
 Feito com HTML, CSS e JavaScript
 
 Ferramentas: Photoshop
+
+Deploy: https://igorlemess.netlify.app/
